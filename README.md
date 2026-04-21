@@ -1,4 +1,4 @@
-اريد مستند واضGCP Enterprise Infrastructure - Capstone Project
+GCP Enterprise Infrastructure - Capstone Project
 1. Project Overview
 This project demonstrates the deployment of a production-ready enterprise infrastructure on Google Cloud Platform (GCP). The design follows best practices in security, scalability, and high availability using Infrastructure as Code (Terraform).
 ________________________________________
