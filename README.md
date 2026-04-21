@@ -42,13 +42,12 @@ An HTTP Load Balancer is configured to:
   - SSH via IAP only
 
 ## 7. Firewall Rules
-**allow-http** → Port 80 | Source: 0.0.0.0/0
-
-**allow-https** → Port 443 | Source: 0.0.0.0/0
-
-**allow-internal** → All ports | Source: 10.0.0.0/8
-
-**allow-iap-ssh** → Port 22 | Source: 35.235.240.0/20
+| Rule | Port | Source |
+|------|------|--------|
+| allow-http | 80 | 0.0.0.0/0 |
+| allow-https | 443 | 0.0.0.0/0 |
+| allow-internal | All | 10.0.0.0/8 |
+| allow-iap-ssh | 22 | 35.235.240.0/20 |
 
 ## 8. Monitoring & Logging
 Cloud Monitoring was planned for:
